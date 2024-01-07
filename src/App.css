@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(5, 5, 36);
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+}
+.Navbar_container{
+  height: 20px;
+  width: 100%;
+}
+
+nav{
+  padding-left: 15px;
+
+}
+
+
+
+
+
+
+/* footer styling */
+
+.footermain{
+  position:absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.864);
+ color: black;
+  height: 200px;
+  width: 100%;
+
+}
+
+.footermain h1{
+  margin: 0;
+  display: inline-block;
+  margin: 5px;
+}
+
+.footermain a {
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size: 20px;
+  margin-top: 10px;
+}
+.footer_socialmedia{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px; /* Adjust the space between links as needed */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  .footer__social-link {
+    text-decoration: none;
+    color: inherit;
+}
+.footer__social-link i {
+  font-size: 30px; /* Adjust the size as needed */
 }
