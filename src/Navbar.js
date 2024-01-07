@@ -5,7 +5,7 @@ function Navbar(){
 
     return(
         <nav className="Navbar_container">
-        <h1 >Sharath-Software Developer</h1>
+        <h1 >Sharath (Software Engineer)</h1>
         </nav>
     )
 }

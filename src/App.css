@@ -1,5 +1,6 @@
 *{
   margin: 0%;
+  box-sizing: border-box;
   
  
 }
@@ -8,8 +9,15 @@ body{
   color: white;
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
 }
+
+a{
+  text-decoration: none; 
+  color: inherit;
+}
+
+
 .Navbar_container{
   height: 20px;
   width: 100%;
@@ -20,6 +28,161 @@ nav{
 
 }
 
+/* ------Home styling ---- */
+.Myintro{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+.myName{
+  font-size:40px;
+}
+
+.CV{display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.downloadcv{
+  background-color: transparent;
+  border: 2px solid rgb(15, 220, 152);
+  color:rgb(15, 220, 152);
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  
+}
+
+.downloadcv:hover{
+  background-color: rgba(16, 238, 50, 0.516);
+  
+
+}
+
+/* .picturesandlink{
+ background-color: blanchedalmond;
+ margin: 3% 20%;
+ border-radius: 23px;
+ height: 600px;
+ 
+}
+
+.into_socialmedia{
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  font-size: 35px; 
+  gap: 15px;
+  
+}
+
+.one{
+  background-color: red;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  
+  margin: 15px;
+
+}
+.two{
+  background-color: green;
+  display: inline-block;
+width: 30%;
+height: 100%;
+margin: 10px;
+
+}
+
+.three{
+  background-color: orange;
+  width: 30%;
+  display: inline-block;
+  
+  height: 100%;
+  margin: 15px;
+
+
+}
+
+
+.cvimage{
+ height: 100%;
+ width: 100%;
+ padding: 5px;
+ overflow: c;
+ border-radius: 25px 35px;
+ 
+} */
+
+
+
+.picturesandlink {
+  background-color: rgba(25, 101, 172, 0.089);
+  margin: 3% 20%;
+  border-radius: 50px;
+  height: 600px;
+  display: flex; /* Add flex display to arrange items in a row */
+  align-items: center; /* Vertically align items in the center */
+}
+
+.into_socialmedia {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  font-size: 35px;
+  gap: 15px;
+  /* justify-content: center; */
+  align-items: center;
+  
+}
+
+.one,
+.two,
+.three {
+  width: 30%;
+  margin: 15px;
+  text-align: center;
+  
+}
+
+.three{
+  /* background-color: orangered; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+
+}
+
+.home__scroll{
+text-decoration: none;
+color: inherit;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.home__scroll-name{
+  writing-mode: vertical-rl;
+}
+
+.cvimage {
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  overflow: hidden; /* Use "hidden" for overflow */
+  border-radius: 25px 35px;
+}
+
+/* Other styling for .one, .two, and .three if needed */
+
+
 
 
 
@@ -28,13 +191,14 @@ nav{
 /* footer styling */
 
 .footermain{
-  position:absolute;
+  position: relative;
   bottom: 0;
   text-align: center;
   background-color: rgba(255, 255, 0, 0.864);
  color: black;
   height: 200px;
   width: 100%;
+  
 
 }
 

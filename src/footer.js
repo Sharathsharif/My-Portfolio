@@ -17,11 +17,11 @@ return(
         <a href="https://www.facebook.com/" target="blank"className="footer__social-link">
         <i class="bi bi-facebook"></i>
         </a>
-        <a href="https://www.instagram.com/" target="blank"className="footer__social-link">
-        <i class="bi bi-instagram"></i>
-        </a>
         <a href="https://github.com/Sharathsharif" target="blank"className="footer__social-link">
         <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="blank"className="footer__social-link">
+        <i class="bi bi-instagram"></i>
         </a>
 
 
