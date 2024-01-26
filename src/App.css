@@ -117,7 +117,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.home__scroll-name{
+.home__scroll{
   writing-mode: vertical-rl;
 }
 
@@ -142,25 +142,43 @@ align-items: center;
  }
 
 .Aboutme{
-  color: orange;
+  color: rgb(249, 165, 8);
 }
 
 .aboutsection{
   display: flex;
+  flex-direction: row;
+}
+
+
+.Experience{
+  display: flex;
+  width: 40%;
   flex-direction: column;
 }
-.Experience{
-  display: inline-block;
-  width: 40%;
-}
-.bi_bi-person-workspace{
-font-size: 30px;
-}
+
+
+
 .OverAllProjectDetails{
   width: 40%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
 
 }
+
+
+/* Imported logo styling  */
+
+.bi-person-workspace{
+font-size: 40px;
+}
+
+.bi-kanban{
+  font-size: 40px;
+}
+
+
+
 
 
 

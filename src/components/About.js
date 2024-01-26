@@ -1,4 +1,4 @@
-
+import './Home.css'
 
 function About() {
     return (
@@ -14,15 +14,21 @@ function About() {
             <br />
             <div className="aboutsection">
                 <div className="Experience">
-                    <a href="#experience.skills">Experience & Skills</a>
-                    <i className="bi bi-person-workspace"></i>
+                    <a href="#experience.skills">
+                    <i className="bi bi-person-workspace" id=" experience_Logo"></i>
                     <h2 className="Aboutme">Experience</h2>
-                    <p>Fresher</p>
+                    <p> <strong>Fresher </strong></p>
+                    </a>
+                </div>
+                <div className="OverAllProjectDetails">
+                    <i className="bi bi-kanban"></i>
+                    <h2 className="Aboutme">Skills</h2>
+                    <p > <strong>Front-end Developer</strong> </p> 
                 </div>
                 <div className="OverAllProjectDetails">
                     <i className="bi bi-kanban"></i>
                     <h2 className="Aboutme">Completed</h2>
-                    <p>Projects</p> 
+                    <p > <strong>3 Projects</strong> </p> 
                 </div>
             </div>
         </section>
