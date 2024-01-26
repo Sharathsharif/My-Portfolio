@@ -11,7 +11,7 @@ function Home() {
                 <h3 className="">Software Developer</h3>
             </div>
             <div className="CV">
-                <a download="pdf" href="../assets" className="downloadcv">
+                <a download="pdf" href="../assets/pdf/sharath Frontend resume.pdf" className="downloadcv">
                     Download CV
                 </a>
             </div>

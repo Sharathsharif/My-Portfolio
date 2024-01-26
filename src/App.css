@@ -5,7 +5,7 @@
  
 }
 body{
-  background-color: rgb(5, 5, 36);
+  background-color: rgb(12, 12, 68);
   color: white;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,10 @@ nav{
 }
 
 /* ------Home styling ---- */
+/* ------Home styling ---- */
+/* ------Home styling ---- */
+
+
 .Myintro{
   display: flex;
   flex-direction: column;
@@ -63,61 +67,6 @@ nav{
 
 }
 
-/* .picturesandlink{
- background-color: blanchedalmond;
- margin: 3% 20%;
- border-radius: 23px;
- height: 600px;
- 
-}
-
-.into_socialmedia{
-  display: flex;
-  flex-direction: column;
-  column-gap: 20px;
-  font-size: 35px; 
-  gap: 15px;
-  
-}
-
-.one{
-  background-color: red;
-  display: inline-block;
-  width: 30%;
-  height: 100%;
-  
-  margin: 15px;
-
-}
-.two{
-  background-color: green;
-  display: inline-block;
-width: 30%;
-height: 100%;
-margin: 10px;
-
-}
-
-.three{
-  background-color: orange;
-  width: 30%;
-  display: inline-block;
-  
-  height: 100%;
-  margin: 15px;
-
-
-}
-
-
-.cvimage{
- height: 100%;
- width: 100%;
- padding: 5px;
- overflow: c;
- border-radius: 25px 35px;
- 
-} */
 
 
 
@@ -180,7 +129,39 @@ align-items: center;
   border-radius: 25px 35px;
 }
 
-/* Other styling for .one, .two, and .three if needed */
+/* -------About me Styling-------
+  -------About me Styling-------
+  -------About me Styling-------
+  -------About me Styling------- */
+
+ #About{
+  margin: 10% 20% ;
+  padding: 5%;
+  background-color: rgba(25, 101, 172, 0.089);
+  border-radius: 50px;
+ }
+
+.Aboutme{
+  color: orange;
+}
+
+.aboutsection{
+  display: flex;
+  flex-direction: column;
+}
+.Experience{
+  display: inline-block;
+  width: 40%;
+}
+.bi_bi-person-workspace{
+font-size: 30px;
+}
+.OverAllProjectDetails{
+  width: 40%;
+  display: inline-block;
+
+}
+
 
 
 
@@ -230,3 +211,4 @@ align-items: center;
 .footer__social-link i {
   font-size: 30px; /* Adjust the size as needed */
 }
+
