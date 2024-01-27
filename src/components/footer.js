@@ -15,13 +15,13 @@ return(
         
         <ul className="footer_socialmedia">
         <a href="https://www.facebook.com/" target="blank"className="footer__social-link">
-        <i class="bi bi-facebook"></i>
+        <i className="bi bi-facebook"></i>
         </a>
         <a href="https://github.com/Sharathsharif" target="blank"className="footer__social-link">
-        <i class="bi bi-github"></i>
+        <i className="bi bi-github"></i>
         </a>
         <a href="https://www.instagram.com/" target="blank"className="footer__social-link">
-        <i class="bi bi-instagram"></i>
+        <i className="bi bi-instagram"></i>
         </a>
 
 

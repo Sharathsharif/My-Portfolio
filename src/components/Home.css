@@ -1,4 +1,128 @@
 
-experience_Logo{
-    size: 50px;
-}
+
+.Myintro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .myName{
+    font-size:40px;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+  .CV{display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .downloadcv{
+    background-color: transparent;
+    border: 2px solid rgb(15, 220, 152);
+    color:rgb(15, 220, 152);
+    border-radius: 50px;
+    width: 150px;
+    height: 30px;
+    
+  }
+  
+  .downloadcv:hover{
+    background-color: rgba(16, 238, 50, 0.516);
+    
+  
+  }
+  
+  
+  
+  
+  .picturesandlink {
+    background-color: rgba(25, 101, 172, 0.21);
+    margin: 3% 20%;
+    border-radius: 50px;
+    height: 500px;
+    display: flex; /* Add flex display to arrange items in a row */
+    align-items: center; /* Vertically align items in the center */
+    /* background-image: url(../../public/myimage.JPG); */
+    background-size:cover;
+    background-position: center;
+    background-image: -moz-linear-gradient();
+    padding: 0%;
+  }
+  /* .picturesandlink:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(20, 95, 234, 0.605);
+  } */
+  
+  .into_socialmedia {
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 20px; */
+    font-size: 45px;
+    gap: 30px;
+    /* justify-content: center; */
+    align-items: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.973);
+
+  }
+  .into__social-link{
+    transition: 0.5s;
+  }
+
+  .into__social-link:hover{
+    color: orange;
+  }
+  
+  .one,
+  .two,
+  .three {
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+    
+  }
+  
+  .three{
+    /* background-color: orangered; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .home__scroll{
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 150%;
+  }
+
+  .home__scroll{
+    writing-mode: vertical-rl;
+    transition: 0.5s;
+  }
+
+  .home__scroll:hover{
+    color: orange;
+  }
+  
+  .cvimage {
+    height: 100%;
+    width: 100%;
+    /* padding: 5px; */
+    overflow: hidden; /* Use "hidden" for overflow */
+    border-radius: 25px 35px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.973);
+    transition: 0.5s;
+  }
+  .cvimage:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(20, 95, 234, 0.605);
+  }

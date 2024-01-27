@@ -1,0 +1,45 @@
+
+.Project_container{
+    padding: 5px;
+    box-shadow: 5px solid
+     rgb(241, 49, 28);
+     margin-top: 40px;
+     margin-bottom: 20px;
+}
+
+.project_images{
+    width: 40%;
+    margin: 2%;
+    display: inline-block;
+
+}
+
+.single_project{
+    width: 45%;
+    height: 200px;
+    padding: 5px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    margin-bottom: 10%;
+}
+.single_project h2 {
+    color: rgb(248, 11, 11);
+    margin-bottom: 10%;
+}
+
+.Project_github_Link_btn{
+    padding: 2%;
+    margin: 5%;
+    background-color: transparent;
+    color: rgb(11, 244, 11);
+    border-color: greenyellow;
+}
+.Project_live_Link_btn{
+    padding: 2%;
+    margin: 5%;
+    background-color: transparent;
+    color: rgb(241, 17, 17);
+    border-color: rgb(255, 8, 8);
+}

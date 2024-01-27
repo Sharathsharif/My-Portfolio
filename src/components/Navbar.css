@@ -1,0 +1,35 @@
+.Navbar_container{
+    height: 5%;
+    width: 100%;
+    background-color: rgba(7, 7, 83, 0.087);
+    position: fixed;
+  }
+  
+  nav{
+    padding-left: 15px;
+  
+  }
+  
+  h1{
+    display: inline-flex;
+    width: 90%;
+    font-size: 150%
+  }
+   button{
+    display: inline-block;
+    position: relative;
+    right: 0;
+    align-content: end;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    padding: 5px;
+    font-size: 150%;
+    border-radius: 10px ;
+    margin-top: 5px;
+    transition: 0.5s;
+  }
+  button:hover{
+    color: yellow;
+   border-color: yellow;
+  }
