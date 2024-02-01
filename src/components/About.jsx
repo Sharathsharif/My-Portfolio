@@ -7,18 +7,15 @@ function About() {
       <br />
       <br />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
-        laboriosam unde saepe ex fugit assumenda temporibus architecto porro
-        molestiae repudiandae, consequuntur placeat ducimus labore ad veniam
-        culpa quos autem beatae, tenetur dolorem. Praesentium, fuga. Ea quas
-        maiores dolore incidunt maxime esse necessitatibus, deleniti velit
-        mollitia modi sapiente, quo quidem. Reprehenderit perspiciatis
-        architecto reiciendis asperiores saepe provident vitae quas autem,
-        voluptatibus amet aliquid sequi minus repellat. Corporis, quia.
-        Aspernatur labore molestiae nemo necessitatibus aut culpa, nisi quod
-        nostrum ut reiciendis totam maxime est quis autem magni repudiandae sit
-        laborum saepe in veniam. Hic aspernatur aliquam quaerat ex, quae aut
-        atque nesciunt.
+           Eager to launch my career in software development, I've honed my skills
+        in HTML, CSS, Bootstrap, JavaScript, and ReactJS through online courses,
+        supplemented by my knowledge in API integration and Redux. My
+        proficiency extends to GitHub, ensuring efficient code management and
+        collaboration. I've also engaged in numerous online workshops to stay at
+        the forefront of industry trends and technologies. With a blend of
+        theoretical knowledge and practical skills, I am ready to contribute to
+        innovative projects, bringing enthusiasm, creativity, and a
+        problem-solving mindset to a dynamic team.
       </p>
 
       <br />
@@ -49,7 +46,6 @@ function About() {
             <i className="bi bi-kanban"></i>
             <h2 className="Title">Completed</h2>
             <p>
-              
               <strong>3 Projects</strong>
             </p>
           </a>

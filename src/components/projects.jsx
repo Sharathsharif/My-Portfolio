@@ -1,7 +1,7 @@
 import "./projects.css";
-import ecommerce from "../assets/Image/Ecommerce.jpg";
-import Newsimage from "../assets/Image/News Image.png";
-import Restaurant from "../assets/Image/restaurant-icon.png";
+import ecommerce from "../assets/Ecommerce.jpg";
+import Newsimage from "../assets/News Image.png";
+import Restaurant from "../assets/restaurant-icon.png";
 
 export default function Projects() {
   return (
@@ -24,7 +24,9 @@ export default function Projects() {
           </p>
           <button className="Project_github_Link_btn">
             <a href="https://github.com/Sharathsharif/SS-Restaurant" target="blank" > GitHub Link</a></button>
-          <button className="Project_live_Link_btn">Live Link</button>
+          <button className="Project_live_Link_btn">
+          <a href="https://ssrestaurant.netlify.app/">Live Link</a></button>
+
         </div>
 
         <img className="project_images" src={Restaurant} alt="" />

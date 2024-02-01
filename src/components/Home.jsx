@@ -1,11 +1,12 @@
 import './Home.css'
 import '../App.css'
 import pdf from '../assets/pdf/Sharath.pdf'
+import MyCV from '../assets/myimage.JPG'
 
 
 function Home() {
     return (
-        <section >
+        <section id='Homee' >
             <div className="Myintro">
                 <br />
                 <br />
@@ -40,7 +41,7 @@ function Home() {
                 </div>
 
                 <div className="two">
-                    <img src="/myimage.JPG" alt="" className="cvimage" />
+                    <img src={MyCV} alt="" className="cvimage" />
                 </div>
 
                 <div className="three">
